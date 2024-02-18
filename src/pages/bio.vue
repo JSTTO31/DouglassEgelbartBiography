@@ -2,7 +2,7 @@
     <v-layout style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" id="layout-bio">
         <div class="circle bg-purple-darken-4" style="z-index: 10;"></div>
         <v-card id="bart" flat class="rounded-0 pa-0 bg-transparent rounded-xl" style="z-index: 20;">
-            <v-img class="w-100" src="/public/engelbart.png"></v-img>
+            <v-img class="w-100" src="/engelbart.png"></v-img>
         </v-card>
         <v-main id="main-bio" class="px-10" style="z-index: 20;padding-top: 110px;">
             <v-card width="65%" id="container" height="625" style="overflow-y: scroll;" flat color="transparent">
