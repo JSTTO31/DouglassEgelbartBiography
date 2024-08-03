@@ -59,7 +59,7 @@ let timer = null
 const nextPage =  (event) => {
     if(!timer){
       timer = setTimeout((e) => {
-          if(event.deltaY == 100){
+          if(event.deltaY > 1){
               router.push({name: 'achievements'})
           }else{
               router.push({name: 'intro'})
